@@ -15,7 +15,7 @@ window.onscroll = function() {
   }
 }
 
-// Side Navigation Menu Js
+
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
@@ -37,7 +37,7 @@ cancelBtn.onclick = function() {
   scrollBtn.style.pointerEvents = "auto";
 }
 
-// Side Navigation Bar Close While We click On Navigation Links
+
 
 let navLinks = document.querySelectorAll(".menu li a");
 for (var i = 0; i < navLinks.length; i++) {
@@ -46,5 +46,5 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
   });
-}
+}  
 
