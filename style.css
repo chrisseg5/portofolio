@@ -221,13 +221,19 @@ section .title span::after{
 .about .about-details .left{
   width:45%;
 }
+@media screen and (max-width: 600px) {
+  img{
+    margin-right: -1000px;
+  }
+}
 .about .left img{
   height:400px;
   width:400px;
   object-fit: cover;
   border-radius: 12px;
 }
-.about .about-details .right{
+.about .about-details .right{ 
+  
   width:55%;
 }
 section .topic{
