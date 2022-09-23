@@ -14,7 +14,7 @@ window.onscroll = function() {
     scrollBtn.style.display = "none";
   }
 }
-
+ 
 
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
