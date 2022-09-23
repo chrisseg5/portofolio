@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 :root{
-    --primary-color:#010300
+    --primary-color:rgb(52, 152, 129)
     ;
     --black-color:#fff2c5;
     --white-color:#fff;
@@ -16,7 +16,7 @@
 }
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: #14435b;
+  background-color: rgb(10,25,47);
 }
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
@@ -269,7 +269,7 @@ section .button button:hover{
 
 /* My Skills CSS */
 .skills{
-  background:#14435b
+  background:rgb(10,25,47)
   ;
 }
 .skills .content{
@@ -329,7 +329,7 @@ section .button button:hover{
    justify-content:space-between;
 }
 .services .boxes .box{
-  margin:20px 0;
+  margin:10px 0;
   width:calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
@@ -366,7 +366,7 @@ section .button button:hover{
 
 /* Contact Me CSS */
 .contact{
-  background: #14435b;
+  background: rgb(10,25,47);
 }
 
 .contact .content{
@@ -526,3 +526,30 @@ footer .text span a:hover{
 }
         
       
+
+.box2{
+  margin:10px 0;
+  width:calc(100% / 2 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding:30px 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.664);
+  cursor:default;
+  transition: all 0.4s ease;
+}
+.button2 button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgb(10,25,47);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:rgb(10,25,47);
+  color: rgb(52, 152, 129); 
+  border: 2px solid rgb(52, 152, 129);
+  
+}
